@@ -6,14 +6,13 @@ const Navegacion = () => {
         {/*sección tabs*/}
         <ul className="nav nav-tabs">
             <li className="nav-item">
-                <a className="nav-link active" href="#">Tareas</a>
+                <Link to="/" className="nav-link">Tareas</Link>
             </li>
             <li className="nav-item">
                 <Link to="/historico" className="nav-link">Historico</Link>
             </li>
         </ul>
     </div>
-
 
 }
 export default Navegacion

@@ -20,7 +20,7 @@ const MainPage = () => {
     <Titulo texto="To-Do App"/>
     <Navegacion />
     <Formulario agregar={agregarTodo}/>
-    <ListaTODOs todos = {listaTODOs}/> 
+    <ListaTODOs todos = {listaTODOs} esHistorico={false}/> 
   </div>
 }
 
